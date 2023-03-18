@@ -3,11 +3,10 @@
     public class Users
     {
     public int Id { get; set; }
-    public int UserId { get; set; }
-    public string Content { get; set; }
-    public DateTime Date { get; set; }
-
-    public Users Users { get; set; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; }
+    public List<Posts> Posts { get; set; }
     public List<Comments> Comments { get; set; }
     public List<Likes> Likes { get; set; }
     }
