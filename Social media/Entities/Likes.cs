@@ -2,10 +2,10 @@
 {
     public class Likes
     {
-        public int Id { get; set; }
-        public Posts Post { get; set; }
-        public Users User { get; set; }
-        public DateTime Date { get; set; }
+    public int UserId { get; set; }
+    public int PostId { get; set; }
+    public Users Users { get; set; }
+    public Posts Posts { get; set; }
     }
 }
  
